@@ -1,11 +1,13 @@
 
-//here you'll put variables and their value
+//here you'll put variables, their value and general changes
+@import 'themes/general';
 @import 'themes/tokens';
 
 //you shuould add yous section here
 @import 'sections/navbar.scss';
 @import 'sections/heroSection';
-//@import 'sections/section2';
+
+
 @import 'sections/featuresSection.scss';
 @import 'sections/section_bluetooth.scss';
 @import 'sections/footer.scss';
@@ -14,9 +16,7 @@
 @import 'sections/buynowSection.scss';
 @import 'sections/comment.scss';
 
-//Mobile
-@import 'sections/buynowSectionMobile.scss';
-@import 'sections/footerMobile.scss';
-@import 'sections/featuresSectionMobile.scss';
-@import 'sections/heroMobile.scss';
-@import 'sections/section_bluetoothMobile.scss';
+@import 'sections/testimony';
+@import 'sections/subscribe.scss';
+
+@import 'sections/heroMobile'
